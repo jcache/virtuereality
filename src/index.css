@@ -1,0 +1,105 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  bottom: 1em;
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.coming_soon {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+}
+
+.bringing_virtue {
+  /* padding-top: 2em;
+  padding-left: 5em; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.line1 {
+  position:absolute;
+  left: 0px;
+  top: 6em;
+}
+
+.line2 {
+  position:absolute;
+  right: 0px;
+  bottom: 10em;
+}
+
+.line3 {
+  position:absolute;
+  right: 0px;
+  bottom: 8em;
+}
+
+.logo {
+  position:absolute;
+  height: 2.5em;
+  left: 2em;
+  bottom: 4em;
+}
+
+.copyright {
+  position:absolute;
+  height: 1em;
+  left: 2em;
+  bottom: 2em;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
